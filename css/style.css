@@ -4,12 +4,31 @@ body {
   background-color: #fff;
 }
 
+.container {
+  max-width: 1158;
+  padding: 0b 15px;
+  margin: 0 auto;
+}
+
+
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 /*  #region header */
@@ -23,11 +42,22 @@ a {
   color: #4d5ae5;
 }
 
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
 .logo .logo-part {
   color: #2e2f42;
 }
 
+.ection-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .nav-link {
+  padding: 24px 0;
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -35,11 +65,36 @@ a {
   color: #2e2f42;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-list {
+  gap: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .contacts {
+  margin-left: auto;
   font-style: normal;
 }
 
 .contacts-link {
+  padding: 24px 0;
+  display: block;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -184,3 +239,4 @@ a {
 
 .page-footer .logo .logo-part {
   color: #f4f4fd;
+}
