@@ -189,10 +189,6 @@ p {
   display: flex;
 }
 
-.our-principles {
-  padding: 120px 0;
-}
-
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -212,6 +208,11 @@ p {
 
 .principles-title {
   margin-bottom: 8px;
+}
+
+.our-principles {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 /* #endregion our principles */
@@ -336,8 +337,7 @@ p {
 /* #endregion our portfolio */
 
 .page-footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
   background-color: #2e2f42;
 
 }
