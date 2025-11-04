@@ -264,6 +264,15 @@ p {
   padding: 32px 0;
 }
 
+.team-title {
+  text-align: center;
+  margin-bottom: 8px
+}
+
+.team-text {
+  text-align: center;
+}
+
 /* #endregion our team */
 
 /* #region our portfolio */
